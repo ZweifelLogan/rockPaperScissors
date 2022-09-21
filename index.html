@@ -6,8 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <script src="rps.js"></script>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <h1>Rock Paper Scissors !!!!</h1>
+        <h3>Make your choice</h3>
+        <h2 id="result">Result</h2>
+        <ul class="list">
+            <li><button onclick="console.log(playRound('rock',getComputerChoice()))">Rock</button></li>
+            <li><button onclick="console.log(playRound('paper',getComputerChoice()))">Paper</button></li>
+            <li><button onclick="console.log(playRound('scissors',getComputerChoice()))">Scissors</button></li>
+        </ul>
     </body>
 </html>

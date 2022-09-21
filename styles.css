@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(24,24,24);
+    color: white;
+}
+
+h1, h3, h2 {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    flex: 1;
+    /*border: 1px solid green;*/
+    list-style: none;
+    margin: 100px;
+}
+
+li, button {
+    height: 200px;
+}
+
+button {
+    /*border: 1px solid red;*/
+    background-color: lightblue;
+    color: black;
+    width: 250px;
+    font-size: 30px;
+}
